@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #f9fbfd;
+    overflow-x: hidden;
+}
+
+table {
+    font-size: 14px;
+    
+}
+
+/* table thead th {
+    padding: 5px 0;
+} */
+
+table tbody td:first-child {
+    text-align: left;
+    padding: 2px 5px;
+}
+
+table tbody td {
+    text-align: right;
+}
+
+.headerWrapper, .sec1art1Wrapper {
+    max-width: 1150px;
+    margin-left: 52px;
+}
+
+.headerWrapper {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+/* .headerWrapper button {
+    position: absolute;
+    right: 24%;
+} */
+
+/* .headerWrapper a {
+    position: absolute;
+    right: 7%;
+} */
+
+/* .headerWrapper button {
+    outline: none;
+    border: none;
+    background: #345da6;
+    color: white;
+    padding: 10.8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+
+/* .headerWrapper a {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: #345da6;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 35px;
+    font-size: 14px;
+} */
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    width: 25%;
+    box-shadow: -1px 1px 2px 1px lightgray;
+    margin: 10px;
+    padding: 10px 25px;
+    border: 2px solid #e4ebf6;
+    border-radius: 10px;
+    background: white;
+}
+
+ul li span {
+    color: #95aac9;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+ul li h2 {
+    font-size: 18px;
+    color: #12263f;
+}
+
+.supplierClass {
+    background: url('../img/supplier.svg') no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+.electricityClass {
+    background: url('../img/elecrticity.svg') no-repeat;
+    background-position-x: 60%;
+    background-position-y: center;
+    text-transform: capitalize;
+    background-color: white;
+}
+
+.gasClass {
+    background: url('../img/gas.svg') no-repeat;
+    background-position-x: 65%;
+    background-position-y: center;
+    text-transform: capitalize;
+    background-color: white;
+}
+
+.countryFlag {
+    background: url('../img/countryflag.svg') no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+.reportPeriod {
+    background: url('../img/calendar.svg') no-repeat;
+    background-position: center;
+    background-color: white;
+}
+
+.spaneleCom {
+    color: #6e84a3;
+    background-color: #edf2f9;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.spangasCom {
+    background-color: #e8f0fe;
+    color: #1363f1;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* 
+.logo{
+    padding-left: 12px;
+} */
+/* @media print {
+    #printbtn {
+        display :  none;
+    }
+    body{
+        width: 21cm;
+        height: 29.7cm;
+     margin: 30mm 45mm 30mm 45mm; 
+    }
+    /* div {
+        break-inside: avoid;
+      } */
+/* } */
+
+/* @media print {
+    footer {page-break-after: always;}
+  } */

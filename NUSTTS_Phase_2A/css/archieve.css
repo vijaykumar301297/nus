@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --primary-font: 'Roboto', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif ;
+}
+
+body {
+    background: #f9fbfd;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sec1Wrapper {
+    max-width: 600px;
+    font-family: var(--primary-font);
+}
+
+.close-btn {
+    position: absolute;
+    float: right;
+    right: 2%;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    color: #000000;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+.archievecontainer {
+    background: #fff;
+    width: 400px;
+    position: absolute;
+    border: 2px solid #d2ddec;
+    border-radius: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0px 5px 12px 2px lightgray;
+}
+
+.archievecontainer{
+    height: 550px;
+}
+
+
+
+.archievecontainer h2{
+    margin: 20px 0 20px 15px;
+    font-size: 16px;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+
+
+label {
+    display: block;
+    margin: 20px 0 5px 60px;
+    
+}
+
+input, textarea{
+    width: 270px;
+    margin: 10px 0px 0 60px;
+    padding: 10px 0px 10px 10px;
+    border: 1px solid #1363F1;
+    border-radius:4px;
+}
+
+.line {
+    margin: 20px 0;
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px 0 0 0;
+}
+
+.createClass,
+.cancelClass {
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+    background-size: 14px;
+    background-position: right;
+    border-radius: 5px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.createClass {
+    color: #fff;
+    /* background: url('../img/plus-white.svg') no-repeat; */
+    background-color: #1363f1;
+}
+
+.cancelClass {
+    color: #000;
+    /* background: url('../img/cancel-svgrepo-com.svg') no-repeat; */
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.createClass img,
+.cancelClass img {
+    margin: 0 0 -2px 5px;
+}

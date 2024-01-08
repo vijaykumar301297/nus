@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #f9fbfd;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    width: 25%;
+    box-shadow: -1px 2px 5px 1px lightgray;
+    margin: 10px;
+    padding: 10px 25px;
+    border: 2px solid #e4ebf6;
+    border-radius: 10px;
+    background: white;
+}
+
+ul li span {
+    color: #95aac9;
+    font-size: 10px;
+    font-weight: 600;
+}
+
+ul li h2 {
+    font-size: 18px;
+    color: #12263f;
+}
+
+.pdf {
+    color: white;
+    background-color: #345DA6;
+    border-radius: 35px;
+    position: absolute;
+    right: 5%;
+    top: 4%;
+    padding: 10px 20px;
+}
+
+.export {
+    color: white;
+    background-color: #345DA6;
+    border-radius: 35px;
+    position: absolute;
+    right: 15%;
+    top: 4%;
+    padding: 10px 20px;
+    text-decoration: none;
+} 
+
+
+ .suppic {
+    /* background: url('../img/supplier.svg') no-repeat; */
+    background-position-x: 85%;
+    background-position-y: center;
+    background-position: center; 
+    background-color: white;
+    margin: 0 0 0 80%;
+} 
+.elecic {
+    background-position-x: 85%;
+    background-position-y: center;
+    background-position: center; 
+    background-color: white;
+    margin: 0 0 0 35%;
+}
+.gasic {
+    background-position-x: 85%;
+    background-position-y: center;
+    background-position: center; 
+    background-color: white;
+    margin: 0 0 0 80%;
+}
+
+.caleic {
+    background-position-x: 85%;
+    background-position-y: center;
+    background-position: center; 
+    background-color: white;
+    margin: 0 0 0 35%;
+}
+
+.countryic {
+    background-position-x: 85%;
+    background-position-y: center;
+    background-position: center; 
+    background-color: white;
+    margin: 0 0 0 35%;
+}
+.spaneleCom {
+    color: #6e84a3;
+    background-color: #edf2f9;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.spangasCom {
+    background-color: #e8f0fe;
+    color: #1363f1;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+table{
+    /* border-top: 2px solid #CED4DA; */
+    border-bottom: 2px solid #CED4DA;
+    border-radius: 6px;
+    width:80%;
+    margin: 30px 10px;
+}
+
+table th {
+    color: #343a40;
+    background: #F9FBFD;
+    height: 80%;
+    border-top: 2px solid #CED4DA;
+    border-bottom:2px solid #CED4DA;
+    text-align: right;
+}
+
+table tr, .protofilo {
+    color: #12263F;
+    font-size: 13px;
+    border: 1px solid #CED4DA;
+    height: 50px;
+    border-bottom:2px solid #CED4DA;
+    
+}
+
+table td  {
+    color: #12263F;
+    font-size: 13px;
+    /* border-bottom: 1px solid #CED4DA; */
+    height: 50px;
+    text-align: right;
+
+}
+
+@media print {
+    #printPageButton {
+      display: none;
+    }
+  }

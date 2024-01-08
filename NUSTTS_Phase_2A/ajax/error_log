@@ -1,0 +1,6 @@
+[28-Feb-2023 03:30:39 UTC] PHP Notice:  Undefined offset: 0 in /home/qualesce1/public_html/staging.qualesce.com/NUS_TTS_Final/ajax/contractTerm.php on line 14
+[28-Feb-2023 03:30:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/qualesce1/public_html/staging.qualesce.com/NUS_TTS_Final/ajax/contractTerm.php on line 14
+[28-Feb-2023 03:30:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/qualesce1/public_html/staging.qualesce.com/NUS_TTS_Final/ajax/contractTerm.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/qualesce1/public_html/staging.qualesce.com/NUS_TTS_Final/ajax/contractTerm.php on line 18

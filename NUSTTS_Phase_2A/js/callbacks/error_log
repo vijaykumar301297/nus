@@ -1,0 +1,1 @@
+[26-Oct-2022 04:17:43 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /home/qualesce1/public_html/staging.qualesce.com/stagingfinalv1/js/callbacks/getparentdetails.php on line 9

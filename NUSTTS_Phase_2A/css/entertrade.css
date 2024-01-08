@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+   margin: 0;
+   padding: 0; 
+   font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0px 0 0 400px;
+    font-family: 'Roboto', sans-serif;
+    color: #f9fbfd;
+}
+#ddlYears{
+    display: none;
+}
+.containertrade {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 676px;
+    height: 668px;
+    left: 32%;
+    top: 10px;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 600;
+    color: #345DA6;
+    margin: 50px 0 6px 57px;
+}
+
+.entry{
+    font-size: 16px;
+    font-weight: 600;
+    color: #345DA6;
+    position: absolute;
+    top: 0%;
+    left: 8.5%;
+    /* margin: 0 0 6px 50px; */
+}
+
+span{
+    font-size: 15px;
+    font-weight: 400;
+    color:  #345DA6;
+}
+
+.year{
+    /* margin: 0 20px 0 540px; */
+    /* display: flex; */
+    font-size: 15px;
+    font-weight: 400;
+    color:  #345DA6;    
+    position: relative;
+    /* bottom: 90%; */
+    left: 43%;
+}
+
+.clientData {
+    font-size: 15px;
+    font-weight: 400;
+    color:#345DA6;
+    margin: 0 0 5px 10px;
+}
+
+.contractData {
+    font-size: 15px;
+    font-weight: 400;
+    color: #345DA6;
+    margin: 0 0 5px 10px;
+
+}
+
+.clientDetails {
+    width: 800px;
+    margin-top: 15px;
+    /* padding: 60px 0 20px 0; */
+}
+
+#client {
+    display: flex;
+    border: #F9FBFD; 
+    padding: 10px;
+    margin: 15px 0 0 10px;
+   
+    width: 668px;
+    /* width: 570px; */
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: #345DA6;
+    border: 1px solid #1363F1;
+    border-radius: 6px;
+
+}
+.year{
+    display: none;
+}
+.contractDetails {
+    padding: 10px 0 10px 0;
+
+}
+
+#contract {
+    display: flex;
+    border: beige; 
+    padding: 10px;
+    margin: 15px 0 15px 10px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: #345DA6;
+    border: 1px solid #1363F1;
+    border-radius: 6px;
+    width: 668px;
+    /* width: 570px; */
+    height: 40px;
+   
+}
+
+.wrappers {
+    box-sizing: border-box;
+    padding-top: 2%;
+    line-height: 1.5;
+    max-width: 960px;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+.boxs {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration-line: none;
+    left: 0;
+}
+
+.boxs input[type="radio"] {
+    display: none;
+}
+.boxs input[type="radio"]:checked+label {
+    background-color: #f9fbfd;;
+    color: #283e46;
+}
+
+.boxs input[type="radio"]:checked+label+.content {
+    display: block;
+}
+
+.contents {
+    padding: 0 0 0 50px;
+}
+
+.calendar {
+    padding: 10px 10px;
+    margin: 0 10px 0 0;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: #345DA6;
+    border: 1px solid #1363F1;
+    border-radius: 6px;
+}
+
+.seasons {
+    margin: 0 10px;
+    padding: 10px 18px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: #345DA6;
+    border: 1px solid #1363F1;
+    border-radius: 6px;
+}
+
+.calandarquarter {
+    margin: 0 10px;
+    padding: 10px 10px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: #345DA6;
+    border: 1px solid #1363F1;
+    border-radius: 6px;
+}
+
+.calendarmonth {
+    margin:0 10px ;
+    padding: 10px 10px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: #345DA6;
+    border: 1px solid #1363F1;
+    border-radius: 6px;
+}
+
+#ddlYears {
+    /* margin: -1px 0 0 10px; */
+    padding: 14.7px 10px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: #345DA6;
+    border: 1px solid #1363F1;
+    border-radius: 6px;
+}
+
+.headers {
+    margin: 0 0 0 10px;
+}
+.volume {
+    /* margin: 10px 0 10px 0; */
+    font-size: 15px;
+    font-weight: 400;
+    color:#345DA6;
+}
+
+.tradeprice {
+    /* margin: 10px 0 10px 0; */
+    /* margin: -60px 0 0 300px; */
+    font-size: 15px;
+    font-weight: 400;
+    color:#345DA6;
+    /* width: 245px; */
+}
+
+.baseload {
+    /* margin: 10px 0 10px 0; */
+    font-size: 15px;
+    font-weight: 400;
+    color: #345DA6;
+    position: absolute;
+    top: 63.9%;
+    left: 65%;
+}
+
+.effectiveprice {
+    /* margin: -80px 0 0 370px; */
+    /* font-size: 15px; */
+    font-weight: 400;
+    color:#345DA6;
+    margin: 0 0 0 10px;
+}
+
+input {
+    padding: 10px 10px;
+    /* margin: 2px 10px 3px 8px; */
+    width: 245px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: #345DA6;
+    border: 1px solid #1363F1;
+    border-radius: 6px;
+}
+
+.efprice {
+     margin: 100px 0 10px 0;
+    font-size: 15px;
+    font-weight: 400;
+     color:#345DA6;
+}
+
+.enterTradebtn {
+    padding: 10px 245px 10px 245px;
+    margin: 10px 0 10px 0;
+    width: 85%;
+    background-color: #345DA6;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.loadprice{
+    font-size: 15px;
+    font-weight: 400;
+    color:#345DA6;
+    margin: 0 0 0 15px;
+}
+.loadprices  {
+    margin: 0 0 0 17px;
+}
+
+.confirmPrice {
+    /* margin: -102px 0 0 370px; */
+    font-size: 15px;
+    font-weight: 400;
+    color: #345DA6;
+}
+
+.tradeprice {
+    display: flex;
+    position: relative;
+    left: 16%;
+    bottom: 160%;
+  }
+
